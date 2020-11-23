@@ -1,0 +1,70 @@
+$scale 0.4
+
+$definebone "Hero-Root" "" 14.467548 11.538605 -125.866013 -0.20002 -13.199802 3.75339 0 0 0 0 0 0
+$definebone "Hero" "Hero-Root" -8.031546 5.201077 49.045189 18.279362 -80.934013 6.762163 0 0 0 0 0 0
+$definebone "Hero-Pelvis" "Hero" 0 0 -0.000008 -89.244769 74.213974 -169.757154 0 0 0 0 0 0
+$definebone "Hero-Spine" "Hero-Pelvis" 8.449944 0.066008 0.005734 -2.502336 0.055343 12.783891 0 0 0 0 0 0
+$definebone "Hero-Spine1" "Hero-Spine" 15.144348 -0.01338 0 0.002062 1.066499 -3.156249 0 0 0 0 0 0
+$definebone "Hero-Spine2" "Hero-Spine1" 16.880283 -0.015119 -0.000017 -0.165069 1.844749 -3.124623 0 0 0 0 0 0
+$definebone "Hero-R-Clavicle" "Hero-Spine2" 19.363596 0.073196 -6.154346 79.513593 -138.781741 41.742606 0 0 0 0 0 0
+$definebone "Hero-RUpArmTwist" "Hero-R-Clavicle" 15.52033 -0.00001 -0.000003 -62.904574 2.872974 -9.659101 0 0 0 0 0 0
+$definebone "Hero-RUpArmTwist1" "Hero-RUpArmTwist" 14.166119 -0.000004 0.000006 0.000008 -0.00023 2.036923 0 0 0 0 0 0
+$definebone "Hero-R-UpperArm" "Hero-R-Clavicle" 15.53414 0.065584 -0.008533 -62.904574 2.872974 -5.585143 0 0 0 0 0 0
+$definebone "Hero-R-ForeTwist" "Hero-R-UpperArm" 28.328346 -0.043661 -0.00546 0.000001 -103.952939 -2.786931 0 0 0 0 0 0
+$definebone "Hero-R-ForeTwist1" "Hero-R-ForeTwist" 14.909781 -0.000008 -0.000001 -0.000056 -0.000281 -2.786933 0 0 0 0 0 0
+$definebone "Hero-R-Forearm" "Hero-R-UpperArm" 28.332245 -0.000008 0.00001 0.000059 -103.952932 -0.000009 0 0 0 0 0 0
+$definebone "Hero-R-Hand" "Hero-R-Forearm" 29.84795 -0.008633 0.014957 -2.25247 -9.02672 81.742448 0 0 0 0 0 0
+$definebone "Hero-R-Finger4" "Hero-R-Hand" 9.210627 -0.215775 -4.120323 -20.652091 91.317267 12.47971 0 0 0 0 0 0
+$definebone "handycam" "Hero-R-Finger4" 0.125816 6.288315 1.627972 83.191862 -153.602841 -140.60689 0 0 0 0 0 0
+$definebone "Hero-R-Finger41" "Hero-R-Finger4" 2.730581 -0.000004 -0.000008 0 55.081279 0 0 0 0 0 0 0
+$definebone "Hero-R-Finger42" "Hero-R-Finger41" 1.94355 -0.000002 0.000004 -0.006933 107.965368 0.006015 0 0 0 0 0 0
+$definebone "Hero-R-Finger3" "Hero-R-Hand" 9.954168 -0.754667 -1.683529 -10.261738 93.098826 9.288277 0 0 0 0 0 0
+$definebone "Hero-R-Finger31" "Hero-R-Finger3" 4.016464 -0.000008 0.000004 3.337766 85.088701 -0.047104 0 0 0 0 0 0
+$definebone "Hero-R-Finger32" "Hero-R-Finger31" 2.661331 -0.000003 -0.000011 -0.000051 113.470275 0.000231 0 0 0 0 0 0
+$definebone "Hero-R-Finger2" "Hero-R-Hand" 11.083586 -0.200571 0.84462 -4.242074 100.75611 2.925351 0 0 0 0 0 0
+$definebone "Hero-R-Finger21" "Hero-R-Finger2" 4.337881 0.000011 0.000004 0 93.612374 -0.000009 0 0 0 0 0 0
+$definebone "Hero-R-Finger22" "Hero-R-Finger21" 2.92012 0 0 -0.00005 96.701573 0.000231 0 0 0 0 0 0
+$definebone "Hero-R-Finger1" "Hero-R-Hand" 10.645212 -0.206324 3.175125 2.450014 86.720426 -9.885697 0 0 0 0 0 0
+$definebone "Hero-R-Finger11" "Hero-R-Finger1" 4.162703 -0.000006 -0.000004 -0.000003 78.374666 -0.00001 0 0 0 0 0 0
+$definebone "Hero-R-Finger12" "Hero-R-Finger11" 2.139761 0 0.000011 -0.000102 98.896639 0.182371 0 0 0 0 0 0
+$definebone "Hero-R-Finger0" "Hero-R-Hand" 2.620771 1.309221 2.024246 -25.405181 38.268673 -92.298055 0 0 0 0 0 0
+$definebone "Hero-R-Finger01" "Hero-R-Finger0" 5.137944 -0.000008 0.000011 2.865238 45.994242 2.244836 0 0 0 0 0 0
+$definebone "Hero-R-Finger02" "Hero-R-Finger01" 3.571129 -0.000004 0.000004 0.00019 95.291139 0.000051 0 0 0 0 0 0
+
+$definebone "ValveBiped.Bip01_R_UpperArm" "Hero-R-UpperArm" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Forearm" "Hero-R-Forearm" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Hand" "Hero-R-Hand" 0 0 0 0 -10 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger0" "Hero-R-Finger0" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger01" "Hero-R-Finger01" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger02" "Hero-R-Finger02" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger1" "Hero-R-Finger1" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger11" "Hero-R-Finger11" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger12" "Hero-R-Finger12" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger2" "Hero-R-Finger2" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger21" "Hero-R-Finger21" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger22" "Hero-R-Finger22" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger3" "Hero-R-Finger3" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger31" "Hero-R-Finger31" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger32" "Hero-R-Finger32" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger4" "Hero-R-Finger4" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger41" "Hero-R-Finger41" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger42" "Hero-R-Finger42" 0 0 0 0 0 180 0 0 0 0 0 0
+ 
+$bonemerge "ValveBiped.Bip01_R_UpperArm"
+$bonemerge "ValveBiped.Bip01_R_Forearm"
+$bonemerge "ValveBiped.Bip01_R_Hand"
+$bonemerge "ValveBiped.Bip01_R_Finger0"
+$bonemerge "ValveBiped.Bip01_R_Finger01"
+$bonemerge "ValveBiped.Bip01_R_Finger02"
+$bonemerge "ValveBiped.Bip01_R_Finger1"
+$bonemerge "ValveBiped.Bip01_R_Finger11"
+$bonemerge "ValveBiped.Bip01_R_Finger12"
+$bonemerge "ValveBiped.Bip01_R_Finger2"
+$bonemerge "ValveBiped.Bip01_R_Finger21"
+$bonemerge "ValveBiped.Bip01_R_Finger22"
+$bonemerge "ValveBiped.Bip01_R_Finger3"
+$bonemerge "ValveBiped.Bip01_R_Finger31"
+$bonemerge "ValveBiped.Bip01_R_Finger32"
+$bonemerge "ValveBiped.Bip01_R_Finger4"
+$bonemerge "ValveBiped.Bip01_R_Finger41"
+$bonemerge "ValveBiped.Bip01_R_Finger42"

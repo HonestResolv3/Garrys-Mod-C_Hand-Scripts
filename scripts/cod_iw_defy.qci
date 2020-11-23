@@ -1,0 +1,151 @@
+$scale 1
+
+$definebone "tag_origin" "" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "tag_view" "tag_origin" -0.106364 -0.000001 64.319847 0 0 0 0 0 0 0 0 0
+$definebone "tag_ads" "tag_view" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "tag_torso" "tag_ads" -0.903378 0.000001 -11.806004 0 0 0 0 0 0 0 0 0
+$definebone "j_mainroot" "tag_torso" 0 0 -14.313843 -89.999983 90.00348 0 0 0 0 0 0 0
+$definebone "j_spinelower" "j_mainroot" 3.532715 0 0.000001 0 0.000115 0 0 0 0 0 0 0
+$definebone "j_spineupper" "j_spinelower" 6.249981 -0.000014 0.000001 0 -0.000115 0 0 0 0 0 0 0
+$definebone "j_clavicle_le" "j_spineupper" 9.568115 -0.021476 -1.942787 88.658008 -66.064677 -66.059282 0 0 0 0 0 0
+$definebone "j_shoulder_le" "j_clavicle_le" 5.784655 0.000086 -0.000027 47.372844 -14.20718 -4.290993 0 0 0 0 0 0
+$definebone "j_elbow_le" "j_shoulder_le" 11.529215 0.000299 -0.000393 0.000002 -46.966905 -0.000345 0 0 0 0 0 0
+$definebone "j_wrist_le" "j_elbow_le" 11.041485 0.000227 -0.000286 0.000002 -0.000002 -0.000055 0 0 0 0 0 0
+$definebone "j_metaindex_le_1" "j_wrist_le" 0.625427 -0.744843 0.183781 -8.025075 -10.060565 -94.841303 0 0 0 0 0 0
+$definebone "j_index_le_1" "j_metaindex_le_1" 2.823989 0.000034 -0.000019 -1.15342 20.059024 11.551341 0 0 0 0 0 0
+$definebone "j_index_le_2" "j_index_le_1" 1.781819 0.000004 -0.000024 -0.000572 26.531556 -0.000745 0 0 0 0 0 0
+$definebone "j_index_le_3" "j_index_le_2" 0.949053 -0.000004 -0.000025 0.000001 36.229492 0.000116 0 0 0 0 0 0
+$definebone "j_metamid_le_1" "j_wrist_le" 0.612657 -0.084583 0.234524 -7.528092 -3.804844 -95.452468 0 0 0 0 0 0
+$definebone "j_mid_le_1" "j_metamid_le_1" 2.859896 0.000046 -0.000044 -1.90777 27.378327 1.569557 0 0 0 0 0 0
+$definebone "j_mid_le_2" "j_mid_le_1" 2.043178 0 -0.000036 -0.000511 56.05871 -0.000912 0 0 0 0 0 0
+$definebone "j_mid_le_3" "j_mid_le_2" 1.172321 -0.000033 -0.000031 0.000231 26.567488 0.000181 0 0 0 0 0 0
+$definebone "j_metapinky_le_1" "j_wrist_le" 0.608901 1.380201 0.132057 1.190205 6.155054 -99.58631 0 0 0 0 0 0
+$definebone "j_pinky_le_1" "j_metapinky_le_1" 2.583963 0.000042 -0.000093 -0.000968 35.990746 0.000114 0 0 0 0 0 0
+$definebone "j_pinky_le_2" "j_pinky_le_1" 1.306112 -0.000029 -0.000093 0.001376 42.581411 0.001089 0 0 0 0 0 0
+$definebone "j_pinky_le_3" "j_pinky_le_2" 0.75816 -0.000021 -0.000017 -0.000396 31.299824 -0.000459 0 0 0 0 0 0
+$definebone "j_metaring_le_1" "j_wrist_le" 0.620581 0.598551 0.147705 -3.53131 2.462054 -100.9704 0 0 0 0 0 0
+$definebone "j_ring_le_1" "j_metaring_le_1" 2.76598 0.000034 -0.000046 -2.902145 29.877345 0.141516 0 0 0 0 0 0
+$definebone "j_ring_le_2" "j_ring_le_1" 1.63895 -0.000019 -0.000084 0.001211 47.511032 0.001031 0 0 0 0 0 0
+$definebone "j_ring_le_3" "j_ring_le_2" 1.07354 -0.00001 -0.000004 -0.000737 32.47129 -0.00063 0 0 0 0 0 0
+$definebone "j_thumb_le_1" "j_wrist_le" 0.718081 -0.623777 -0.058334 34.801054 -67.796943 5.000203 0 0 0 0 0 0
+$definebone "j_thumb_le_2" "j_thumb_le_1" 2.261786 -0.000057 -0.000004 16.616688 31.033682 -13.89044 0 0 0 0 0 0
+$definebone "j_thumb_le_3" "j_thumb_le_2" 1.266989 -0.00001 -0.000015 -0.000121 21.034534 0.000289 0 0 0 0 0 0
+$definebone "j_wristfronttwist1_le" "j_elbow_le" 10.599934 0.000219 -0.000275 0.000002 0.000227 0.000056 0 0 0 0 0 0
+$definebone "j_shield_le" "j_elbow_le" 3.999977 0.000084 -0.000107 0.000002 0.000227 0.000056 0 0 0 0 0 0
+$definebone "j_shouldertwist_le" "j_shoulder_le" 0.499977 0.000012 -0.000023 0.000006 0.000114 -0.000114 0 0 0 0 0 0
+$definebone "j_clavicle_ri" "j_spineupper" 9.568108 -0.021475 1.942782 -88.658404 -66.101977 66.096574 0 0 0 0 0 0
+$definebone "j_shoulder_ri" "j_clavicle_ri" 5.784655 -0.00009 -0.000053 -47.372372 -14.206831 4.290767 0 0 0 0 0 0
+$definebone "j_elbow_ri" "j_shoulder_ri" 11.529261 -0.000358 -0.00045 0.000405 -46.966673 0.000224 0 0 0 0 0 0
+$definebone "j_wrist_ri" "j_elbow_ri" 11.041425 -0.000189 -0.000198 0.000002 -0.000227 -0.000288 0 0 0 0 0 0
+$definebone "j_metaindex_ri_1" "j_wrist_ri" 0.625489 -0.744879 -0.1838 8.024792 -10.060511 94.841187 0 0 0 0 0 0
+$definebone "j_index_ri_1" "j_metaindex_ri_1" 2.823975 0.000034 -0.000021 1.15382 20.058908 -11.551173 0 0 0 0 0 0
+$definebone "j_index_ri_2" "j_index_ri_1" 1.781825 -0.000023 -0.000088 -0.000287 26.531612 0.000227 0 0 0 0 0 0
+$definebone "j_index_ri_3" "j_index_ri_2" 0.949011 0.000072 0.000004 0.000058 36.229451 0.000114 0 0 0 0 0 0
+$definebone "j_metamid_ri_1" "j_wrist_ri" 0.612682 -0.08465 -0.234562 7.527865 -3.805014 95.452653 0 0 0 0 0 0
+$definebone "j_mid_ri_1" "j_metamid_ri_1" 2.859861 -0.000061 -0.000042 1.908751 27.378329 -1.569733 0 0 0 0 0 0
+$definebone "j_mid_ri_2" "j_mid_ri_1" 2.043234 -0.000027 -0.000086 -0.00046 56.05871 0.000172 0 0 0 0 0 0
+$definebone "j_mid_ri_3" "j_mid_ri_2" 1.172363 0.000045 -0.000015 0.000109 26.567303 0.000116 0 0 0 0 0 0
+$definebone "j_metapinky_ri_1" "j_wrist_ri" 0.608914 1.380049 -0.132225 -1.190378 6.154774 99.586427 0 0 0 0 0 0
+$definebone "j_pinky_ri_1" "j_metapinky_ri_1" 2.58393 -0.000034 -0.000101 0.000061 35.990572 0.000116 0 0 0 0 0 0
+$definebone "j_pinky_ri_2" "j_pinky_ri_1" 1.306124 -0.000013 -0.000092 0.000458 42.581421 -0.000398 0 0 0 0 0 0
+$definebone "j_pinky_ri_3" "j_pinky_ri_2" 0.758255 -0.000015 0.000031 -0.000347 31.299766 0.000172 0 0 0 0 0 0
+$definebone "j_metaring_ri_1" "j_wrist_ri" 0.620626 0.598436 -0.147758 3.530966 2.461942 100.970592 0 0 0 0 0 0
+$definebone "j_ring_ri_1" "j_metaring_ri_1" 2.765974 -0.000092 -0.000078 2.901118 29.877228 -0.141637 0 0 0 0 0 0
+$definebone "j_ring_ri_2" "j_ring_ri_1" 1.638901 0 -0.000046 0.000292 47.511203 -0.000285 0 0 0 0 0 0
+$definebone "j_ring_ri_3" "j_ring_ri_2" 1.073582 0.000047 -0.000034 -0.000453 32.471065 0.000294 0 0 0 0 0 0
+$definebone "j_thumb_ri_1" "j_wrist_ri" 0.718054 -0.6238 0.058353 -34.800828 -67.797121 -4.999973 0 0 0 0 0 0
+$definebone "j_thumb_ri_2" "j_thumb_ri_1" 2.261758 0.000094 0.000004 -16.617213 31.033453 13.890446 0 0 0 0 0 0
+$definebone "j_thumb_ri_3" "j_thumb_ri_2" 1.266973 0.000024 -0.000114 0.000164 21.034659 -0.000346 0 0 0 0 0 0
+$definebone "j_wristfronttwist1_ri" "j_elbow_ri" 10.599915 -0.000191 -0.000237 0.000002 -0.000227 -0.000231 0 0 0 0 0 0
+$definebone "j_shouldertwist_ri" "j_shoulder_ri" 0.499996 -0.000015 -0.000015 0.000005 -0.000115 -0.000171 0 0 0 0 0 0
+$definebone "j_hip_le" "j_mainroot" 0 0.000004 -4.866636 0.496099 -179.254478 -179.996755 0 0 0 0 0 0
+$definebone "j_hiptwist_le" "j_hip_le" 0.5 0.000004 0.000004 0 0.000115 0 0 0 0 0 0 0
+$definebone "j_knee_le" "j_hip_le" 17.162897 0.00018 0.000138 -0.000344 6.830631 -0.000057 0 0 0 0 0 0
+$definebone "j_ankle_le" "j_knee_le" 17.749474 0.295197 0.000235 0 -66.403113 0.000115 0 0 0 0 0 0
+$definebone "j_ball_le" "j_ankle_le" 5.412804 0.000014 0.000087 0 -29.682196 -0.000057 0 0 0 0 0 0
+$definebone "j_kneedq_le" "j_knee_le" 0.017876 0.299471 0.000001 -0.000172 -3.413281 0 0 0 0 0 0 0
+$definebone "j_hip_ri" "j_mainroot" 0 0.000009 4.866641 0.496099 -179.254478 -179.996755 0 0 0 0 0 0
+$definebone "j_hiptwist_ri" "j_hip_ri" 0.500011 -0.000003 0.000005 0 0.000172 0 0 0 0 0 0 0
+$definebone "j_knee_ri" "j_hip_ri" 17.162853 0.00018 0.000138 -0.000344 6.831548 -0.000057 0 0 0 0 0 0
+$definebone "j_ankle_ri" "j_knee_ri" 17.749521 0.294899 0.000236 0 -66.403926 0.000115 0 0 0 0 0 0
+$definebone "j_ball_ri" "j_ankle_ri" 5.412801 0.000006 0.000087 0 -29.682308 -0.000057 0 0 0 0 0 0
+$definebone "j_kneedq_ri" "j_knee_ri" 0.017879 0.299471 0 -0.000172 -3.414198 -0.000057 0 0 0 0 0 0
+$definebone "j_crotch" "j_mainroot" -6.500002 0.000001 -0.000001 89.999983 0.000115 0 0 0 0 0 0 0
+
+$definebone "ValveBiped.Bip01_L_Clavicle" "j_clavicle_le" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_UpperArm" "j_shoulder_le" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Forearm" "j_elbow_le" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Hand" "j_wrist_le" 0 0 0 -11 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger0" "j_thumb_le_1" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger01" "j_thumb_le_2" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger02" "j_thumb_le_3" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger1" "j_index_le_1" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger11" "j_index_le_2" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger12" "j_index_le_3" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger2" "j_mid_le_1" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger21" "j_mid_le_2" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger22" "j_mid_le_3" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger3" "j_ring_le_1" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger31" "j_ring_le_2" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger32" "j_ring_le_3" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger4" "j_pinky_le_1" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger41" "j_pinky_le_2" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger42" "j_pinky_le_3" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Clavicle" "j_clavicle_ri" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_UpperArm" "j_shoulder_ri" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Forearm" "j_elbow_ri" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Hand" "j_wrist_ri" 0 0 0 11 1 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger0" "j_thumb_ri_1" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger01" "j_thumb_ri_2" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger02" "j_thumb_ri_3" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger1" "j_index_ri_1" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger11" "j_index_ri_2" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger12" "j_index_ri_3" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger2" "j_mid_ri_1" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger21" "j_mid_ri_2" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger22" "j_mid_ri_3" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger3" "j_ring_ri_1" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger31" "j_ring_ri_2" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger32" "j_ring_ri_3" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger4" "j_pinky_ri_1" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger41" "j_pinky_ri_2" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger42" "j_pinky_ri_3" 0 0 0 0 0 180 0 0 0 0 0 0
+ 
+$bonemerge "ValveBiped.Bip01_L_Clavicle"
+$bonemerge "ValveBiped.Bip01_L_UpperArm"
+$bonemerge "ValveBiped.Bip01_L_Forearm"
+$bonemerge "ValveBiped.Bip01_L_Hand"
+$bonemerge "ValveBiped.Bip01_L_Finger0"
+$bonemerge "ValveBiped.Bip01_L_Finger01"
+$bonemerge "ValveBiped.Bip01_L_Finger02"
+$bonemerge "ValveBiped.Bip01_L_Finger1"
+$bonemerge "ValveBiped.Bip01_L_Finger11"
+$bonemerge "ValveBiped.Bip01_L_Finger12"
+$bonemerge "ValveBiped.Bip01_L_Finger2"
+$bonemerge "ValveBiped.Bip01_L_Finger21"
+$bonemerge "ValveBiped.Bip01_L_Finger22"
+$bonemerge "ValveBiped.Bip01_L_Finger3"
+$bonemerge "ValveBiped.Bip01_L_Finger31"
+$bonemerge "ValveBiped.Bip01_L_Finger32"
+$bonemerge "ValveBiped.Bip01_L_Finger4"
+$bonemerge "ValveBiped.Bip01_L_Finger41"
+$bonemerge "ValveBiped.Bip01_L_Finger42"
+$bonemerge "ValveBiped.Bip01_R_Clavicle"
+$bonemerge "ValveBiped.Bip01_R_UpperArm"
+$bonemerge "ValveBiped.Bip01_R_Forearm"
+$bonemerge "ValveBiped.Bip01_R_Hand"
+$bonemerge "ValveBiped.Bip01_R_Finger0"
+$bonemerge "ValveBiped.Bip01_R_Finger01"
+$bonemerge "ValveBiped.Bip01_R_Finger02"
+$bonemerge "ValveBiped.Bip01_R_Finger1"
+$bonemerge "ValveBiped.Bip01_R_Finger11"
+$bonemerge "ValveBiped.Bip01_R_Finger12"
+$bonemerge "ValveBiped.Bip01_R_Finger2"
+$bonemerge "ValveBiped.Bip01_R_Finger21"
+$bonemerge "ValveBiped.Bip01_R_Finger22"
+$bonemerge "ValveBiped.Bip01_R_Finger3"
+$bonemerge "ValveBiped.Bip01_R_Finger31"
+$bonemerge "ValveBiped.Bip01_R_Finger32"
+$bonemerge "ValveBiped.Bip01_R_Finger4"
+$bonemerge "ValveBiped.Bip01_R_Finger41"
+$bonemerge "ValveBiped.Bip01_R_Finger42"

@@ -1,0 +1,115 @@
+
+$definebone "pulse_gun" "" -10.589004 11.384857 50.223499 -3.291413 0.194175 -93.155544 0 0 0 0 0 0
+$definebone "Dummy02" "" -7.954042 27.293839 65.576889 -3.281387 0.488275 -2.972792 0 0 0 0 0 0
+$definebone "Bone01" "Dummy02" 0.000435 0.000395 -0.000313 -27.54999 68.578761 6.323793 0 0 0 0 0 0
+$definebone "Bone02" "Bone01" -17.126747 0.000004 -0.000004 14.720777 39.391532 0.030597 0 0 0 0 0 0
+$definebone "Bone03" "Bone02" -13.386215 0.000042 -0.000004 0.049562 -9.334913 -83.011675 0 0 0 0 0 0
+$definebone "Bone20" "Bone03" -1.573327 -1.596401 -0.844357 -45.409379 -22.539018 63.215867 0 0 0 0 0 0
+$definebone "Bone21" "Bone20" -1.563765 -0.000027 0 10.118829 -9.978456 0.893641 0 0 0 0 0 0
+$definebone "Bone22" "Bone21" -0.862442 -0.000004 0.000004 2.8512 -3.567913 -1.638315 0 0 0 0 0 0
+$definebone "Bone04" "Bone03" -4.610253 -1.55938 0.217849 1.761556 14.331226 10.261097 0 0 0 0 0 0
+$definebone "Bone05" "Bone04" -1.46941 -0.000046 0 -21.866368 -2.074047 -8.379912 0 0 0 0 0 0
+$definebone "Bone06" "Bone05" -1.083777 0 -0.000001 -38.691041 -14.088177 23.304602 0 0 0 0 0 0
+$definebone "Bone08" "Bone03" -4.738983 -0.676769 0.304873 -20.535044 -4.871459 2.723323 0 0 0 0 0 0
+$definebone "Bone09" "Bone08" -1.577507 0 0.000001 -33.132548 -14.425356 9.774145 0 0 0 0 0 0
+$definebone "Bone10" "Bone09" -1.063406 0 0.000001 -41.890999 -10.005957 3.952663 0 0 0 0 0 0
+$definebone "Bone12" "Bone03" -4.789679 0.356754 0.431689 -21.163237 -1.914481 5.634464 0 0 0 0 0 0
+$definebone "Bone13" "Bone12" -1.52013 0 0 -34.240941 0.891234 -8.113715 0 0 0 0 0 0
+$definebone "Bone14" "Bone13" -0.806473 0.000004 -0.000001 -36.38866 -9.711004 11.814847 0 0 0 0 0 0
+$definebone "Bone16" "Bone03" -4.830987 1.450573 0.392396 -31.764785 8.837017 5.354459 0 0 0 0 0 0
+$definebone "Bone17" "Bone16" -1.091522 0 0 4.21622 2.126823 -13.508576 0 0 0 0 0 0
+$definebone "Bone18" "Bone17" -0.641066 0 0.000001 -27.132821 -16.830696 3.478424 0 0 0 0 0 0
+$definebone "Dummy05" "" 9.610709 10.7563 51.917534 -12.198844 -24.826548 146.18027 0 0 0 0 0 0
+$definebone "Bone24" "Dummy05" -3.973679 -0.488154 2.277775 -27.944355 54.117918 9.608044 0 0 0 0 0 0
+$definebone "Bone25" "Bone24" 17.126751 -0.000003 0.000004 18.691603 53.148998 0.030594 0 0 0 0 0 0
+$definebone "Bone26" "Bone25" 13.386227 -0.000044 -0.000004 -12.723159 18.47405 -84.603464 0 0 0 0 0 0
+$definebone "Bone27" "Bone26" 1.573327 1.596409 0.84436 -43.715014 -16.334403 66.122365 0 0 0 0 0 0
+$definebone "Bone28" "Bone27" 1.589924 0.000033 0.000008 4.279591 -3.36888 4.759378 0 0 0 0 0 0
+$definebone "Bone29" "Bone28" 0.82307 -0.000001 0.000004 2.361728 -8.91322 0.899878 0 0 0 0 0 0
+$definebone "Bone31" "Bone26" 4.610255 1.559383 -0.21785 -37.1468 17.10096 -14.250946 0 0 0 0 0 0
+$definebone "Bone32" "Bone31" 1.352011 0.000046 0 -0.000005 -3.154415 0.000003 0 0 0 0 0 0
+$definebone "Bone33" "Bone32" 0.981351 0 -0.000002 -0.000004 1.334137 -0.000054 0 0 0 0 0 0
+$definebone "Bone35" "Bone26" 4.738986 0.676777 -0.304873 -40.057199 19.623812 -13.651747 0 0 0 0 0 0
+$definebone "Bone36" "Bone35" 1.442797 -0.000004 -0.000004 0 -1.708213 0.000002 0 0 0 0 0 0
+$definebone "Bone37" "Bone36" 1.043491 -0.000004 0.000004 -0.000002 1.649208 -0.000054 0 0 0 0 0 0
+$definebone "Bone39" "Bone26" 4.789681 -0.356747 -0.431688 -42.116296 26.611722 -22.268698 0 0 0 0 0 0
+$definebone "Bone40" "Bone39" 1.360131 0 0.000002 0 -0.646176 0.000002 0 0 0 0 0 0
+$definebone "Bone41" "Bone40" 0.774881 -0.000004 0.000002 0 -1.814207 0.000001 0 0 0 0 0 0
+$definebone "Bone43" "Bone26" 4.830993 -1.450577 -0.392395 -41.302349 31.838302 -20.270277 0 0 0 0 0 0
+$definebone "Bone44" "Bone43" 1.005878 0 0 -0.000002 4.36543 -0.000003 0 0 0 0 0 0
+$definebone "Bone45" "Bone44" 0.576122 0.000004 0.000004 0.000114 -2.755976 -0.000233 0 0 0 0 0 0
+
+$definebone "ValveBiped.Bip01_L_UpperArm" "Bone24" 4 -1 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Forearm" "Bone25" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Hand" "Bone26" 0 0 0 10 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger0" "Bone27" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger01" "Bone28" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger02" "Bone29" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger1" "Bone31" 0 0 0 0 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger11" "Bone32" 0 0 0 0 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger12" "Bone33" 0 0 0 0 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger2" "Bone35" 0 0 0 0 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger21" "Bone36" 0 0 0 0 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger22" "Bone37" 0 0 0 0 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger3" "Bone39" 0 0 0 0 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger31" "Bone40" 0 0 0 0 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger32" "Bone41" 0 0 0 0 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger4" "Bone43" 0 0 0 0 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger41" "Bone44" 0 0 0 0 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger42" "Bone45" 0 0 0 0 0 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_UpperArm" "Bone01" -4 1 0 0 180 270 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Forearm" "Bone02" 0 0 0 180 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Hand" "Bone03" 0 0 0 -10 180 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger0" "Bone20" 0 0 0 0 180 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger01" "Bone21" 0 0 0 0 180 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger02" "Bone22" 0 0 0 0 180 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger1" "Bone04" 0 0 0 0 180 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger11" "Bone05" 0 0 0 0 180 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger12" "Bone06" 0 0 0 0 180 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger2" "Bone08" 0 0 0 0 180 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger21" "Bone09" 0 0 0 0 180 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger22" "Bone10" 0 0 0 0 180 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger3" "Bone12" 0 0 0 0 180 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger31" "Bone13" 0 0 0 0 180 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger32" "Bone14" 0 0 0 0 180 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger4" "Bone16" 0 0 0 0 180 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger41" "Bone17" 0 0 0 0 180 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger42" "Bone18" 0 0 0 0 180 90 0 0 0 0 0 0
+ 
+$bonemerge "ValveBiped.Bip01_L_UpperArm"
+$bonemerge "ValveBiped.Bip01_L_Forearm"
+$bonemerge "ValveBiped.Bip01_L_Hand"
+$bonemerge "ValveBiped.Bip01_L_Finger0"
+$bonemerge "ValveBiped.Bip01_L_Finger01"
+$bonemerge "ValveBiped.Bip01_L_Finger02"
+$bonemerge "ValveBiped.Bip01_L_Finger1"
+$bonemerge "ValveBiped.Bip01_L_Finger11"
+$bonemerge "ValveBiped.Bip01_L_Finger12"
+$bonemerge "ValveBiped.Bip01_L_Finger2"
+$bonemerge "ValveBiped.Bip01_L_Finger21"
+$bonemerge "ValveBiped.Bip01_L_Finger22"
+$bonemerge "ValveBiped.Bip01_L_Finger3"
+$bonemerge "ValveBiped.Bip01_L_Finger31"
+$bonemerge "ValveBiped.Bip01_L_Finger32"
+$bonemerge "ValveBiped.Bip01_L_Finger4"
+$bonemerge "ValveBiped.Bip01_L_Finger41"
+$bonemerge "ValveBiped.Bip01_L_Finger42"
+$bonemerge "ValveBiped.Bip01_R_UpperArm"
+$bonemerge "ValveBiped.Bip01_R_Forearm"
+$bonemerge "ValveBiped.Bip01_R_Hand"
+$bonemerge "ValveBiped.Bip01_R_Finger0"
+$bonemerge "ValveBiped.Bip01_R_Finger01"
+$bonemerge "ValveBiped.Bip01_R_Finger02"
+$bonemerge "ValveBiped.Bip01_R_Finger1"
+$bonemerge "ValveBiped.Bip01_R_Finger11"
+$bonemerge "ValveBiped.Bip01_R_Finger12"
+$bonemerge "ValveBiped.Bip01_R_Finger2"
+$bonemerge "ValveBiped.Bip01_R_Finger21"
+$bonemerge "ValveBiped.Bip01_R_Finger22"
+$bonemerge "ValveBiped.Bip01_R_Finger3"
+$bonemerge "ValveBiped.Bip01_R_Finger31"
+$bonemerge "ValveBiped.Bip01_R_Finger32"
+$bonemerge "ValveBiped.Bip01_R_Finger4"
+$bonemerge "ValveBiped.Bip01_R_Finger41"
+$bonemerge "ValveBiped.Bip01_R_Finger42"
+

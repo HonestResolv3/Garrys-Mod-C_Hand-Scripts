@@ -1,0 +1,139 @@
+
+$definebone "v_weapon.p228_Slide" "" 2.705393 -15.528893 5.199091 0 0 89.999983 0 0 0 0 0 0
+$definebone "v_weapon.p228_Hammer" "" 2.705393 -15.045467 4.641293 0 0 89.999983 0 0 0 0 0 0
+$definebone "v_weapon.p228_Trigger" "" 2.705393 -17.146511 4.17646 0 0 89.999983 0 0 0 0 0 0
+$definebone "v_weapon.p228_Clip" "" 2.73033 -15.71134 4.016057 0 0 89.999983 0 0 0 0 0 0
+$definebone "v_weapon.p228_Parent" "" 2.705393 -16.588713 2.279943 0 0 89.999983 0 0 0 0 0 0
+$definebone "v_weapon" "" 0 0 0 0 0 89.999983 0 0 0 0 0 0
+$definebone "v_weapon.Hands_parent" "v_weapon" -0.056707 0 -3.094907 0 0 0 0 0 0 0 0 0
+$definebone "v_weapon.Root34" "v_weapon.Hands_parent" 6.833632 1.302325 6.671466 32.399996 180.000007 132.692941 0 0 0 0 0 0
+$definebone "v_weapon.Left_Arm" "v_weapon.Root34" 0 0 0 35.721152 130.473922 -180.000007 0 0 0 0 0 0
+$definebone "v_weapon.eff16" "v_weapon.Left_Arm" 8.563289 0 0.000003 -0.000018 0.000004 -0.000002 0 0 0 0 0 0
+$definebone "v_weapon.Root16" "v_weapon.eff16" 0 0 0 -25.366288 76.568805 -154.978892 0 0 0 0 0 0
+$definebone "v_weapon.Left_Hand" "v_weapon.Root16" 0 0.000002 0 11.491693 81.592532 0.046387 0 0 0 0 0 0
+$definebone "v_weapon.eff2" "v_weapon.Left_Hand" 3.026587 0 -0.000001 0.000025 -0.000011 0.000015 0 0 0 0 0 0
+$definebone "v_weapon.Root17" "v_weapon.eff2" -2.657338 -0.365555 -0.324764 10.483389 -3.581234 -176.079259 0 0 0 0 0 0
+$definebone "v_weapon.Left_Thumb01" "v_weapon.Root17" 0 0 0 -13.968743 41.509754 -0.571481 0 0 0 0 0 0
+$definebone "v_weapon.Left_Thumb_02" "v_weapon.Left_Thumb01" 1.88721 0.000003 0 -0.000029 -20.578523 0.000004 0 0 0 0 0 0
+$definebone "v_weapon.Left_Thumb03" "v_weapon.Left_Thumb_02" 1.001874 0 0 -6.633335 -11.227555 -0.842756 0 0 0 0 0 0
+$definebone "v_weapon.Root18" "v_weapon.eff2" -0.451689 1.213951 -0.058023 8.664132 1.085741 -82.219421 0 0 0 0 0 0
+$definebone "v_weapon.Left_Pinky01" "v_weapon.Root18" 0 0 0 -3.037746 22.391189 -0.337133 0 0 0 0 0 0
+$definebone "v_weapon.Left_Pinky02" "v_weapon.Left_Pinky01" 0.963855 0 0 -0.520915 -0.658556 -0.134362 0 0 0 0 0 0
+$definebone "v_weapon.Left_Pinky03" "v_weapon.Left_Pinky02" 0.632 0.000001 -0.000002 0.144754 15.670421 0.02922 0 0 0 0 0 0
+$definebone "v_weapon.Root19" "v_weapon.eff2" -0.126642 0.62019 -0.039313 9.520363 -0.658403 -94.484849 0 0 0 0 0 0
+$definebone "v_weapon.Left_Ring01" "v_weapon.Root19" 0 0 0 -1.453118 13.4892 -0.643036 0 0 0 0 0 0
+$definebone "v_weapon.Left_Ring02" "v_weapon.Left_Ring01" 1.208235 0 0 0.048143 14.038093 0.015468 0 0 0 0 0 0
+$definebone "v_weapon.Left_Ring03" "v_weapon.Left_Ring02" 0.763063 0.000004 0 0.059434 3.325626 0.008134 0 0 0 0 0 0
+$definebone "v_weapon.Root20" "v_weapon.eff2" 0 0 0 9.200939 -4.285001 -96.936197 0 0 0 0 0 0
+$definebone "v_weapon.Left_Middle01" "v_weapon.Root20" 0 0 0 -3.758765 3.465006 -0.000004 0 0 0 0 0 0
+$definebone "v_weapon.Left_Middle02" "v_weapon.Left_Middle01" 1.250569 0 0 0.049573 27.347043 0.03134 0 0 0 0 0 0
+$definebone "v_weapon.Left_Middle03" "v_weapon.Left_Middle02" 0.932636 -0.000001 0 0.136662 -10.038686 0.003897 0 0 0 0 0 0
+$definebone "v_weapon.Root21" "v_weapon.eff2" -0.093765 -0.657726 0.062875 9.035637 -5.48122 -97.743034 0 0 0 0 0 0
+$definebone "v_weapon.Left_Index01" "v_weapon.Root21" 0 0 0 -1.815001 5.237334 -0.000009 0 0 0 0 0 0
+$definebone "v_weapon.Left_Index02" "v_weapon.Left_Index01" 1.280972 0 0 -0.023818 16.849754 -0.010145 0 0 0 0 0 0
+$definebone "v_weapon.Left_Index03" "v_weapon.Left_Index02" 0.749372 0 0 -0.027944 -6.7862 -0.000011 0 0 0 0 0 0
+$definebone "v_weapon.Root99" "v_weapon.Left_Arm" 8.563289 0 0.000003 62.22538 100.195311 -168.35355 0 0 0 0 0 0
+$definebone "v_weapon.L_wrist_helper" "v_weapon.Root99" 0 0 0 -0.000007 -0.000014 -0.000013 0 0 0 0 0 0
+$definebone "v_weapon.Root36" "v_weapon.Hands_parent" -4.654183 -1.415279 6.902198 32.399996 180.000007 132.692941 0 0 0 0 0 0
+$definebone "v_weapon.Right_Arm" "v_weapon.Root36" 0 0 0 35.525423 131.193578 -180.000007 0 0 0 0 0 0
+$definebone "v_weapon.eff18" "v_weapon.Right_Arm" 8.543644 0 0 -0.000008 0.000002 -0.000007 0 0 0 0 0 0
+$definebone "v_weapon.Root23" "v_weapon.eff18" 0 0 0 2.205249 -2.907068 -62.617754 0 0 0 0 0 0
+$definebone "v_weapon.Right_Hand" "v_weapon.Root23" 0 0 0 -11.967257 2.623167 -0.043945 0 0 0 0 0 0
+$definebone "v_weapon.eff9" "v_weapon.Right_Hand" 3.013529 0 0 0.000003 -0.000006 0.000002 0 0 0 0 0 0
+$definebone "v_weapon.Root24" "v_weapon.eff9" -2.659016 0.316092 -0.314415 15.071823 -2.721496 -176.670904 0 0 0 0 0 0
+$definebone "v_weapon.Right_Thumb01" "v_weapon.Root24" 0 0 0 -17.439577 -45.139471 0.270548 0 0 0 0 0 0
+$definebone "v_weapon.Right_Thumb02" "v_weapon.Right_Thumb01" 1.978473 -0.000001 0.000001 -0.000007 28.232898 0.000003 0 0 0 0 0 0
+$definebone "v_weapon.Right_Thumb03" "v_weapon.Right_Thumb02" 0.98243 0 0.000001 -0.000019 8.835349 0.000002 0 0 0 0 0 0
+$definebone "v_weapon.Root25" "v_weapon.eff9" -0.089257 0.659884 0.067216 15.363064 -1.933967 94.972463 0 0 0 0 0 0
+$definebone "v_weapon.Right_Index01" "v_weapon.Root25" 0 0 0 -0.051111 -2.61532 0.116536 0 0 0 0 0 0
+$definebone "v_weapon.Right_Index02" "v_weapon.Right_Index01" 1.292959 0 0 -0.000004 -20.395857 -0.000001 0 0 0 0 0 0
+$definebone "v_weapon.Right_Index03" "v_weapon.Right_Index02" 0.752464 0 0 -0.000005 14.588996 -0.000003 0 0 0 0 0 0
+$definebone "v_weapon.Root26" "v_weapon.eff9" 0 0 0 15.439774 -2.84027 95.790125 0 0 0 0 0 0
+$definebone "v_weapon.Right_Middle01" "v_weapon.Root26" 0 0 0 -1.54086 -7.069038 -1.881589 0 0 0 0 0 0
+$definebone "v_weapon.Right_Middle02" "v_weapon.Right_Middle01" 1.261225 0.000001 0 -0.000001 -13.187145 0.000005 0 0 0 0 0 0
+$definebone "v_weapon.Right_Middle03" "v_weapon.Right_Middle02" 0.943232 -0.000007 0 -0.000002 -2.398127 0.000007 0 0 0 0 0 0
+$definebone "v_weapon.Root27" "v_weapon.eff9" -0.108525 -0.607961 -0.044204 15.230012 -1.019182 97.116295 0 0 0 0 0 0
+$definebone "v_weapon.Right_Ring01" "v_weapon.Root27" 0 0 0 -5.653657 -14.496737 -0.973509 0 0 0 0 0 0
+$definebone "v_weapon.Right_Ring02" "v_weapon.Right_Ring01" 1.208373 -0.000002 0 0.000002 -8.89836 0.000006 0 0 0 0 0 0
+$definebone "v_weapon.Right_Ring03" "v_weapon.Right_Ring02" 0.741942 -0.000001 0 0.000003 -4.887484 0.000005 0 0 0 0 0 0
+$definebone "v_weapon.Root28" "v_weapon.eff9" -0.479806 -1.191699 -0.061835 15.356137 1.850761 91.516715 0 0 0 0 0 0
+$definebone "v_weapon.Right_Pinky01" "v_weapon.Root28" 0 0 0 -11.507298 -14.79859 4.20374 0 0 0 0 0 0
+$definebone "v_weapon.Right_Pinky02" "v_weapon.Right_Pinky01" 0.996223 -0.000004 0 -0.000011 -10.519294 0 0 0 0 0 0 0
+$definebone "v_weapon.Right_Pinky03" "v_weapon.Right_Pinky02" 0.61469 0.000001 0 -0.000007 -2.108326 -0.000004 0 0 0 0 0 0
+$definebone "v_weapon.Root98" "v_weapon.Right_Arm" 8.543644 0 0 -27.413453 96.386094 -179.303286 0 0 0 0 0 0
+$definebone "v_weapon.R_wrist_helper" "v_weapon.Root98" 0 0 0 0.000015 0.000001 -0.000007 0 0 0 0 0 0
+
+$definebone "ValveBiped.Bip01_L_UpperArm" "v_weapon.Hands_parent" 0 2 3 -45 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Forearm" "v_weapon.Left_Arm" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Hand" "v_weapon.Left_Hand" 0 0 0 5 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger0" "v_weapon.Left_Thumb01" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger01" "v_weapon.Left_Thumb_02" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger02" "v_weapon.Left_Thumb03" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger1" "v_weapon.Left_Index01" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger11" "v_weapon.Left_Index02" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger12" "v_weapon.Left_Index03" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger2" "v_weapon.Left_Middle01" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger21" "v_weapon.Left_Middle02" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger22" "v_weapon.Left_Middle03" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger3" "v_weapon.Left_Ring01" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger31" "v_weapon.Left_Ring02" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger32" "v_weapon.Left_Ring03" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger4" "v_weapon.Left_Pinky01" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger41" "v_weapon.Left_Pinky02" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger42" "v_weapon.Left_Pinky03" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_UpperArm" "v_weapon.Hands_parent" -2 -1.5 4 240 45 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Forearm" "v_weapon.Right_Arm" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Hand" "v_weapon.Right_Hand" 0 0 0 -5 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger0" "v_weapon.Right_Thumb01" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger01" "v_weapon.Right_Thumb02" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger02" "v_weapon.Right_Thumb03" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger1" "v_weapon.Right_Index01" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger11" "v_weapon.Right_Index02" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger12" "v_weapon.Right_Index03" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger2" "v_weapon.Right_Middle01" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger21" "v_weapon.Right_Middle02" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger22" "v_weapon.Right_Middle03" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger3" "v_weapon.Right_Ring01" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger31" "v_weapon.Right_Ring02" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger32" "v_weapon.Right_Ring03" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger4" "v_weapon.Right_Pinky01" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger41" "v_weapon.Right_Pinky02" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger42" "v_weapon.Right_Pinky03" 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+$bonemerge "ValveBiped.Bip01_L_UpperArm"
+$bonemerge "ValveBiped.Bip01_L_Forearm"
+$bonemerge "ValveBiped.Bip01_L_Hand"
+$bonemerge "ValveBiped.Bip01_L_Finger0"
+$bonemerge "ValveBiped.Bip01_L_Finger01"
+$bonemerge "ValveBiped.Bip01_L_Finger02"
+$bonemerge "ValveBiped.Bip01_L_Finger1"
+$bonemerge "ValveBiped.Bip01_L_Finger11"
+$bonemerge "ValveBiped.Bip01_L_Finger12"
+$bonemerge "ValveBiped.Bip01_L_Finger2"
+$bonemerge "ValveBiped.Bip01_L_Finger21"
+$bonemerge "ValveBiped.Bip01_L_Finger22"
+$bonemerge "ValveBiped.Bip01_L_Finger3"
+$bonemerge "ValveBiped.Bip01_L_Finger31"
+$bonemerge "ValveBiped.Bip01_L_Finger32"
+$bonemerge "ValveBiped.Bip01_L_Finger4"
+$bonemerge "ValveBiped.Bip01_L_Finger41"
+$bonemerge "ValveBiped.Bip01_L_Finger42"
+$bonemerge "ValveBiped.Bip01_R_UpperArm"
+$bonemerge "ValveBiped.Bip01_R_Forearm"
+$bonemerge "ValveBiped.Bip01_R_Hand"
+$bonemerge "ValveBiped.Bip01_R_Finger0"
+$bonemerge "ValveBiped.Bip01_R_Finger01"
+$bonemerge "ValveBiped.Bip01_R_Finger02"
+$bonemerge "ValveBiped.Bip01_R_Finger1"
+$bonemerge "ValveBiped.Bip01_R_Finger11"
+$bonemerge "ValveBiped.Bip01_R_Finger12"
+$bonemerge "ValveBiped.Bip01_R_Finger2"
+$bonemerge "ValveBiped.Bip01_R_Finger21"
+$bonemerge "ValveBiped.Bip01_R_Finger22"
+$bonemerge "ValveBiped.Bip01_R_Finger3"
+$bonemerge "ValveBiped.Bip01_R_Finger31"
+$bonemerge "ValveBiped.Bip01_R_Finger32"
+$bonemerge "ValveBiped.Bip01_R_Finger4"
+$bonemerge "ValveBiped.Bip01_R_Finger41"
+$bonemerge "ValveBiped.Bip01_R_Finger42"
+

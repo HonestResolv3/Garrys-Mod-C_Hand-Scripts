@@ -1,0 +1,128 @@
+$definebone "arm_controller_01" "" 7.027837 5.050463 -6.176863 2.824109 -88.575328 -136.661035 0 0 0 0 0 0
+$definebone "l_upperarm" "arm_controller_01" 0 0 -0.000002 4.472396 22.775244 7.896961 0 0 0 0 0 0
+$definebone "l_forearm" "l_upperarm" 12.179087 0 -0.000002 46.222281 -24.470456 -0.076662 0 0 0 0 0 0
+$definebone "l_wrist" "l_forearm" 8.30439 -0.000011 -0.00001 -16.331469 22.109471 -54.926654 0 0 0 0 0 0
+$definebone "l_index_low" "l_wrist" 3.555944 -1.062143 -0.176296 20.407782 16.810469 13.302254 0 0 0 0 0 0
+$definebone "l_index_mid" "l_index_low" 1.222128 -0.000007 0.000002 77.646097 -0.014588 -2.329497 0 0 0 0 0 0
+$definebone "l_index_tip" "l_index_mid" 0.699374 -0.000002 0.000007 48.820823 1.139374 0.802149 0 0 0 0 0 0
+$definebone "l_middle_low" "l_wrist" 3.587296 -0.275077 -0.084857 64.845072 11.614878 4.612151 0 0 0 0 0 0
+$definebone "l_middle_mid" "l_middle_low" 1.233989 0 0.000001 65.87628 2.00184 -1.557111 0 0 0 0 0 0
+$definebone "l_middle_tip" "l_middle_mid" 0.875793 -0.000006 0.000001 -9.506004 -0.233488 0.498187 0 0 0 0 0 0
+$definebone "l_pinky_low" "l_wrist" 3.215043 1.130574 -0.131864 76.220083 -103.547315 -117.669776 0 0 0 0 0 0
+$definebone "l_pinky_mid" "l_pinky_low" 0.863873 -0.000004 -0.000002 56.806762 3.267158 1.168796 0 0 0 0 0 0
+$definebone "l_pinky_tip" "l_pinky_mid" 0.642614 0.000007 0 -16.737413 3.460137 -0.05506 0 0 0 0 0 0
+$definebone "l_thumb_low" "l_wrist" 1.235636 -1.234766 -0.855422 12.023352 -26.621446 -3.848496 0 0 0 0 0 0
+$definebone "l_thumb_mid" "l_thumb_low" 1.314108 -0.000004 0 -6.923732 5.528018 2.383855 0 0 0 0 0 0
+$definebone "l_thumb_tip" "l_thumb_mid" 1.099916 0.000001 -0.000003 -0.072759 -15.734673 0.579035 0 0 0 0 0 0
+$definebone "l_ring_low" "l_wrist" 3.425411 0.455515 -0.06484 78.436493 -2.948117 -18.298005 0 0 0 0 0 0
+$definebone "l_ring_mid" "l_ring_low" 1.22085 -0.00001 0.000004 70.426546 4.249552 1.467234 0 0 0 0 0 0
+$definebone "l_ring_tip" "l_ring_mid" 0.817944 0.000003 -0.000005 -21.018202 3.89662 0.103527 0 0 0 0 0 0
+$definebone "l_armtwist_1" "l_forearm" 0 -0.000002 -0.000007 0.000003 0 -12.099036 0 0 0 0 0 0
+$definebone "l_armtwist_2" "l_armtwist_1" 2.307643 -0.000002 0 0.000003 0.000002 -11.131077 0 0 0 0 0 0
+$definebone "l_armtwist_3" "l_armtwist_2" 2.138279 -0.000005 0.00001 0.00006 0.00006 -10.163063 0 0 0 0 0 0
+$definebone "l_armtwist_4" "l_armtwist_3" 1.896877 -0.000006 -0.000005 0.000057 0.00012 -9.194936 0 0 0 0 0 0
+$definebone "arm_controller_02" "" -2.64549 10.352254 -2.410204 2.840643 -91.391272 137.336828 0 0 0 0 0 0
+$definebone "r_upperarm" "arm_controller_02" 0 0 0 -50.137134 1.394404 4.723637 0 0 0 0 0 0
+$definebone "r_forearm" "r_upperarm" 12.179113 0.000006 -0.000009 70.675581 -147.106676 -179.924137 0 0 0 0 0 0
+$definebone "r_wrist" "r_forearm" 8.304388 0.000024 -0.00001 -36.27923 -32.861246 4.967948 0 0 0 0 0 0
+$definebone "r_middle_low" "r_wrist" 3.587302 0.275078 -0.084853 72.982279 -28.984256 -27.401205 0 0 0 0 0 0
+$definebone "r_middle_mid" "r_middle_low" 1.23399 -0.000004 -0.000008 83.376646 2.065767 5.525181 0 0 0 0 0 0
+$definebone "r_middle_tip" "r_middle_mid" 0.875792 0.000002 -0.000001 41.132294 -0.277949 -0.652363 0 0 0 0 0 0
+$definebone "r_ring_low" "r_wrist" 3.425418 -0.455514 -0.064833 87.038597 -39.477794 -29.706129 0 0 0 0 0 0
+$definebone "r_ring_mid" "r_ring_low" 1.22085 0.000001 0.000002 69.896605 -4.210103 -1.430087 0 0 0 0 0 0
+$definebone "r_ring_tip" "r_ring_mid" 0.817945 0 -0.000004 47.363049 -4.038734 -0.142712 0 0 0 0 0 0
+$definebone "r_thumb_low" "r_wrist" 1.235634 1.234768 -0.855422 25.808427 3.983841 -28.012141 0 0 0 0 0 0
+$definebone "r_thumb_mid" "r_thumb_low" 1.314108 0 0.000005 -0.91461 -25.764587 1.177949 0 0 0 0 0 0
+$definebone "r_thumb_tip" "r_thumb_mid" 1.099915 0 0 -0.240636 -39.784821 -0.267854 0 0 0 0 0 0
+$definebone "r_pinky_low" "r_wrist" 3.215044 -1.130573 -0.131855 81.170508 161.007791 -176.18051 0 0 0 0 0 0
+$definebone "r_pinky_mid" "r_pinky_low" 0.863873 0 0 48.19807 -3.004762 -0.959929 0 0 0 0 0 0
+$definebone "r_pinky_tip" "r_pinky_mid" 0.642623 -0.00001 0.000001 44.223173 -3.393002 0.073574 0 0 0 0 0 0
+$definebone "r_index_low" "r_wrist" 3.556205 1.062059 -0.176218 -11.482759 6.241978 -9.047294 0 0 0 0 0 0
+$definebone "r_index_mid" "r_index_low" 1.221889 0.00002 -0.000193 51.660744 -1.63103 0.803223 0 0 0 0 0 0
+$definebone "r_index_tip" "r_index_mid" 0.699373 -0.000003 0 15.217697 -0.679351 -0.547288 0 0 0 0 0 0
+$definebone "r_armtwist_1" "r_forearm" 0 -0.000002 -0.000005 0.000056 0.000005 -3.991564 0 0 0 0 0 0
+$definebone "r_armtwist_2" "r_armtwist_1" 2.307642 0.000004 0.000006 -0.000002 0.000061 -3.672259 0 0 0 0 0 0
+$definebone "r_armtwist_3" "r_armtwist_2" 2.138279 0.000004 0 0.000055 -0.000111 -3.353121 0 0 0 0 0 0
+$definebone "r_armtwist_4" "r_armtwist_3" 1.896873 0.000007 0.000005 0.000055 -0.000112 -3.033924 0 0 0 0 0 0
+$definebone "gun-main" "" -2.935082 -7.646133 -3.740888 0.999962 -90.000017 90.000017 0 0 0 0 0 0
+$definebone "gun-bolt-main" "gun-main" -1.502863 1.620368 0 0 0 0 0 0 0 0 0 0
+$definebone "gun-bolt-rotate" "gun-bolt-main" 1.15851 0.000001 0 0 0 16.183022 0 0 0 0 0 0
+$definebone "tac_bolthandle" "gun-bolt-rotate" -0.34546 -1.099202 1.122199 73.816949 -90.000133 178.999903 0 0 0 0 0 0
+$definebone "bolt1" "gun-bolt-main" 2.811208 -1.249103 0.669425 89.999983 90.999963 0 0 0 0 0 0 0
+$definebone "gun-mag" "gun-main" 1.797585 0.683887 0 0 0 0 0 0 0 0 0 0
+$definebone "tac_mag" "gun-mag" -0.113727 -1.165006 -0.058663 89.999983 90.999963 0 0 0 0 0 0 0
+$definebone "tac" "gun-main" 1.000763 -0.864555 -0.054138 89.999983 90.999963 0 0 0 0 0 0 0
+
+$definebone "ValveBiped.Bip01_L_UpperArm" "l_upperarm" 6 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Forearm" "l_forearm" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Hand" "l_wrist" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger0" "l_thumb_low" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger01" "l_thumb_mid" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger02" "l_thumb_tip" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger1" "l_index_low" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger11" "l_index_mid" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger12" "l_index_tip" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger2" "l_middle_low" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger21" "l_middle_mid" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger22" "l_middle_tip" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger3" "l_ring_low" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger31" "l_ring_mid" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger32" "l_ring_tip" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger4" "l_pinky_low" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger41" "l_pinky_mid" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger42" "l_pinky_tip" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_UpperArm" "r_upperarm" 6 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Forearm" "r_forearm" 0 0 0 0 0 210 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Hand" "r_wrist" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger0" "r_thumb_low" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger01" "r_thumb_mid" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger02" "r_thumb_tip" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger1" "r_index_low" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger11" "r_index_mid" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger12" "r_index_tip" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger2" "r_middle_low" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger21" "r_middle_mid" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger22" "r_middle_tip" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger3" "r_ring_low" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger31" "r_ring_mid" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger32" "r_ring_tip" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger4" "r_pinky_low" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger41" "r_pinky_mid" 0 0 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger42" "r_pinky_tip" 0 0 0 0 0 90 0 0 0 0 0 0
+ 
+$bonemerge "ValveBiped.Bip01_L_UpperArm"
+$bonemerge "ValveBiped.Bip01_L_Forearm"
+$bonemerge "ValveBiped.Bip01_L_Hand"
+$bonemerge "ValveBiped.Bip01_L_Finger0"
+$bonemerge "ValveBiped.Bip01_L_Finger01"
+$bonemerge "ValveBiped.Bip01_L_Finger02"
+$bonemerge "ValveBiped.Bip01_L_Finger1"
+$bonemerge "ValveBiped.Bip01_L_Finger11"
+$bonemerge "ValveBiped.Bip01_L_Finger12"
+$bonemerge "ValveBiped.Bip01_L_Finger2"
+$bonemerge "ValveBiped.Bip01_L_Finger21"
+$bonemerge "ValveBiped.Bip01_L_Finger22"
+$bonemerge "ValveBiped.Bip01_L_Finger3"
+$bonemerge "ValveBiped.Bip01_L_Finger31"
+$bonemerge "ValveBiped.Bip01_L_Finger32"
+$bonemerge "ValveBiped.Bip01_L_Finger4"
+$bonemerge "ValveBiped.Bip01_L_Finger41"
+$bonemerge "ValveBiped.Bip01_L_Finger42"
+$bonemerge "ValveBiped.Bip01_R_UpperArm"
+$bonemerge "ValveBiped.Bip01_R_Forearm"
+$bonemerge "ValveBiped.Bip01_R_Hand"
+$bonemerge "ValveBiped.Bip01_R_Finger0"
+$bonemerge "ValveBiped.Bip01_R_Finger01"
+$bonemerge "ValveBiped.Bip01_R_Finger02"
+$bonemerge "ValveBiped.Bip01_R_Finger1"
+$bonemerge "ValveBiped.Bip01_R_Finger11"
+$bonemerge "ValveBiped.Bip01_R_Finger12"
+$bonemerge "ValveBiped.Bip01_R_Finger2"
+$bonemerge "ValveBiped.Bip01_R_Finger21"
+$bonemerge "ValveBiped.Bip01_R_Finger22"
+$bonemerge "ValveBiped.Bip01_R_Finger3"
+$bonemerge "ValveBiped.Bip01_R_Finger31"
+$bonemerge "ValveBiped.Bip01_R_Finger32"
+$bonemerge "ValveBiped.Bip01_R_Finger4"
+$bonemerge "ValveBiped.Bip01_R_Finger41"
+$bonemerge "ValveBiped.Bip01_R_Finger42"
