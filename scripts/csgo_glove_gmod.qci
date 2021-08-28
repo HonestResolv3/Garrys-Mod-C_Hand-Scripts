@@ -1,5 +1,3 @@
-$scale 1.2
-
 $definebone "v_weapon" "" 0 0 0 0 0 -0.000015 0 0 0 0 0 0
 $definebone "v_weapon.Bip01" "v_weapon" 0 0 0 -90.000003 -90.000003 0 0 0 0 0 0 0
 $definebone "v_weapon.Bip01_Pelvis" "v_weapon.Bip01" 0 0 0 -90.000003 -89.999921 0 0 0 0 0 0 0
